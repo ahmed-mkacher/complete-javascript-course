@@ -23,6 +23,8 @@ let mySecondJob = "Teacher";
 let javascriptIsFun = true;
 console.log(javascriptIsFun);
 
+// Data types lecture
+
 console.log(typeof true);
 console.log(typeof javascriptIsFun);
 console.log(typeof 23);
@@ -43,6 +45,8 @@ console.log(typeof null);
 let age = 30;
 age = 31;
 
+// Let, const and var lecture
+
 const birthYear = 1991;
 
 var job = "Programmer";
@@ -51,12 +55,12 @@ job = "Teacher";
 lastName = "Schmedtmann";
 console.log(lastName);
 
-// Basic operators lecture
-
 const now = 2037;
 const ageJonas = now - 1991;
 const ageSarah = now - 2018;
 console.log(ageJonas, ageSarah);
+
+// Basic operators lecture
 
 console.log(ageJonas * 2, ageJonas / 2, 2 ** 3);
 
@@ -111,4 +115,32 @@ console.log(`String with
 console.log("String with \n\
              multiple \n\
              lines");
+
+// If statements lecture
+
+const age = 15;
+const isOldEnough = age >= 18;
+
+if (isOldEnough)
+{
+    console.log("Sarah can start her driving license");
+}
+else
+{
+    const yearsLeft = 18 - age;
+    console.log(`Sarah is too young. Wait another ${yearsLeft} years:)`);
+}
+
+const birthYear = 2001;
+let century;
+if (birthYear <= 2000)
+{
+    century = 20;
+}
+else
+{
+    century = 21;
+}
+
+console.log(century);
 */

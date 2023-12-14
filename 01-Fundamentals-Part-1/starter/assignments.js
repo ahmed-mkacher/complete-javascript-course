@@ -1,4 +1,4 @@
-
+/*
 // Values and Variables lecture assignment
 
 const country = "Tunisia";
@@ -29,5 +29,8 @@ let description = country + " is in " + continent + ", and its " + population + 
 console.log(description);
 
 // Strings and template literals lecture assignment
+
 description = `${country} is in ${continent}, and its ${population} million people speak ${language}`;
 console.log(description);
+*/
+
