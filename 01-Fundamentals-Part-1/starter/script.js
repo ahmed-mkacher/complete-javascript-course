@@ -18,7 +18,6 @@ let PI = 3.1415;
 
 let myFirstJob = "Coder";
 let mySecondJob = "Teacher";
-*/
 
 let javascriptIsFun = true;
 console.log(javascriptIsFun);
@@ -39,3 +38,15 @@ year = 1991;
 console.log(typeof year);
 
 console.log(typeof null);
+ */
+
+let age = 30;
+age = 31;
+
+const birthYear = 1991;
+
+var job = "Programmer";
+job = "Teacher";
+
+lastName = "Schmedtmann";
+console.log(lastName);
