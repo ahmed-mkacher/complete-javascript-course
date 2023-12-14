@@ -1,8 +1,8 @@
 /*
 // Values and Variables lecture assignment
 
-let country = "Tunisia";
-let continent = "Africa";
+const country = "Tunisia";
+const continent = "Africa";
 let population = 12;
 
 console.log(country);
@@ -12,8 +12,8 @@ console.log(population);
 
 // Data Types lecture assignment
 
-let isIsland = false;
-let language;
+const isIsland = false;
+const language = "Arabic";
 
 console.log(typeof isIsland);
 console.log(typeof language);
