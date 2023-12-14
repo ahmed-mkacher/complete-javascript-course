@@ -1,4 +1,4 @@
-/*
+
 // Values and Variables lecture assignment
 
 const country = "Tunisia";
@@ -27,5 +27,7 @@ const more = population > 6;
 const avg = population < 33;
 let description = country + " is in " + continent + ", and its " + population + " million people speak " + language;
 console.log(description);
-*/
 
+// Strings and template literals lecture assignment
+description = `${country} is in ${continent}, and its ${population} million people speak ${language}`;
+console.log(description);

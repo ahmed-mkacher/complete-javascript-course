@@ -10,6 +10,7 @@ console.log(23);
 let firstName = "Matilda";
 
 // Variable name conventions
+
 let jonas_matilda = "JM";
 let $function = 27;
 
@@ -50,6 +51,8 @@ job = "Teacher";
 lastName = "Schmedtmann";
 console.log(lastName);
 
+// Basic operators lecture
+
 const now = 2037;
 const ageJonas = now - 1991;
 const ageSarah = now - 2018;
@@ -67,6 +70,8 @@ x *= 4;
 x++;
 x--;
 console.log(x);
+
+// Operator precedence lecture
 
 console.log(ageJonas > ageSarah);
 console.log(ageSarah >= 18);
@@ -88,6 +93,8 @@ const firstName = "Jonas";
 const job = "Teacher";
 const birthYear = 1991;
 const year = 2037;
+
+// Strings and template literals lecture
 
 const jonas = "I'm " + firstName + ", a " + (year - birthYear) + " years old " + job + "!";
 console.log(jonas)
