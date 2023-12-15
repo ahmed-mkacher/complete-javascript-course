@@ -175,4 +175,25 @@ if (favorite === 7)
 {
     console.log("SIUUUUUUUUUU");
 }
+
+// Logical operators lecture
+
+const hasDrivingLicense = true;
+const hasGoodVision = true;
+
+console.log(hasDrivingLicense && hasGoodVision);
+console.log(hasDrivingLicense || hasGoodVision);
+console.log(!hasDrivingLicense);
+
+const isTired = true;
+console.log(hasDrivingLicense && hasGoodVision && isTired);
+if (hasDrivingLicense && hasGoodVision && !isTired)
+{
+    console.log("Sarah is able to drive");
+}
+else
+{
+    console.log("Someone else should drive");
+}
 */
+
