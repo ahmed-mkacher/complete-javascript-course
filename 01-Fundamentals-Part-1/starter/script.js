@@ -159,4 +159,20 @@ console.log("23" * "2");
 let n = "1" + 1;
 n = n - 1;
 console.log(n);
+
+// Equality operators lecture
+
+const age = 18;
+if (age === 18)
+{
+    console.log("You just became an adult");
+}
+
+const favorite = Number(prompt("What's your favorite number?"));
+console.log(favorite);
+
+if (favorite === 7)
+{
+    console.log("SIUUUUUUUUUU");
+}
 */
