@@ -86,6 +86,7 @@ else
 switch (language)
 {
     case "Chinese":
+    case "Mandarin":
         console.log("MOST number of native speakers");
         break;
     case "Spanish":
