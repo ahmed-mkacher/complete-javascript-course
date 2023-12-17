@@ -50,5 +50,13 @@ else
 {
     console.log("No one wins");
 }
+
+// Coding challenge 4
+
+let tip;
+bill = 275;
+// bill = 40;
+// bill = 430;
+bill <= 300 && bill >= 50 ? tip = 0.15 * bill : tip = 0.2 * bill;
 */
 
