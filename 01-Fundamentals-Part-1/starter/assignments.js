@@ -69,4 +69,16 @@ else
 {
     console.log("No borders");
 }
+
+// Logical operators lecture assignment
+
+if (language === "English" && population < 50 && isIsland === false)
+{
+    console.log(`You should live in ${country} :)`);
+}
+else
+{
+    console.log(`${country} does not meet your criteria :(`);
+}
 */
+

@@ -171,10 +171,24 @@ if (age === 18)
 const favorite = Number(prompt("What's your favorite number?"));
 console.log(favorite);
 
-if (favorite === 7)
+if (favourite === 23)
+{
+    console.log("Cool! 23 is an amazing age.");
+}
+else if (favourite === 7)
 {
     console.log("SIUUUUUUUUUU");
 }
+else if (favourite === 9)
+{
+    console.log("Cool! 9 is also a cool number);
+}
+else
+{
+    console.log("Number is neither 23, nor 9, nor 7.");
+}
+
+if (favorite !== 23) console.log("Why not 23?");
 
 // Logical operators lecture
 

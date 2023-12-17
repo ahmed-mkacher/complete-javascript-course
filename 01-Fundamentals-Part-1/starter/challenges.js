@@ -29,6 +29,8 @@ else
     console.log(`John's BMI (${johnsBMI}) is higher than Marks's (${marksBMI})!`);
 }
 
+// Coding challenge 3
+
 const dolphinScore = (96 + 108 + 89) / 3;
 const koalaScore = (88 + 91 + 110) / 3;
 
