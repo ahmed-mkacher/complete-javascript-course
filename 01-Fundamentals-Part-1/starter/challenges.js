@@ -50,7 +50,7 @@ else
 {
     console.log("No one wins");
 }
-*/
+
 // Coding challenge 4
 
 const tip = bill <= 300 && bill >= 50 ? 0.15 * bill : 0.2 * bill;
@@ -58,5 +58,4 @@ const bill = 275;
 // const bill = 40;
 // const bill = 430;
 console.log(`The bill was ${bill}, the tip was ${tip}, and the total value ${tip + bill}`);
-
-
+*/
