@@ -81,8 +81,31 @@ else
     console.log(`${country} does not meet your criteria :(`);
 }
 
+// Switch statement lecture assignment
+
+switch (language)
+{
+    case "Chinese":
+        console.log("MOST number of native speakers");
+        break;
+    case "Spanish":
+        console.log("2nd place in number of native speakers");
+        break;
+    case "English":
+        console.log("3rd place");
+        break;
+    case "Hindi":
+        console.log("Number 4");
+        break;
+    case "Arabic":
+        console.log("5th most spoken language");
+        break;
+    default:
+        console.log("Great language too :D");
+        break;
+}
+
 // Conditional operation lecture assignment
 
-population > 33 ? p_avg = "above" : p_avg = "below";
-console.log(`${country}'s population is ${p_avg}average`);
+console.log(`${country}'s population is ${population > 33 ? "above" : "below"} average`);
 */
