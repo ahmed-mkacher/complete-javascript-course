@@ -209,7 +209,8 @@ else
 {
     console.log("Someone else should drive");
 }
-*/
+
+// Switch statement lecture
 
 const day = "monday";
 
@@ -236,5 +237,22 @@ switch (day)
         console.log("Enjoy the weekend!");
         break;
     default:
+        console.log("Not a valid day");
         break;
 }
+
+// Expressions and statements lecture
+
+3 + 4
+1991
+true && false && !false
+
+if (23 > 10)
+{
+    const str = "23 is bigger";
+}
+
+const me = "Jonas";
+console.log(`I'm ${2037 - 1991} years old ${me}`);
+*/
+
