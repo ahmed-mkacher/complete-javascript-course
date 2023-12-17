@@ -80,5 +80,9 @@ else
 {
     console.log(`${country} does not meet your criteria :(`);
 }
-*/
 
+// Conditional operation lecture assignment
+
+population > 33 ? p_avg = "above" : p_avg = "below";
+console.log(`${country}'s population is ${p_avg}average`);
+*/

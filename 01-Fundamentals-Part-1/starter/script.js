@@ -254,7 +254,6 @@ if (23 > 10)
 
 const me = "Jonas";
 console.log(`I'm ${2037 - 1991} years old ${me}`);
-*/
 
 // Conditional (ternary) operation lecture
 
@@ -278,3 +277,4 @@ else
 console.log(drink2);
 
 console.log(`I like to drink ${age >= 18 ? "wine" : "water"}`);
+*/
