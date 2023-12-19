@@ -89,4 +89,21 @@ function fruitProcessor(apples, oranges)
     const juice = `Juice with ${applePieces} pieces of apple and ${orangePieces} pieces of orange.`;
     return juice;
 }
+
+// Arrays lecture
+
+const friend1 = "Micheal"
+const friend2 = "Gabriel";
+
+const friends = ["Gabriel", "Micheal"];
+const years = new Array(1991, 2001, 2002, 2003);
+
+console.log(years[0]);
+console.log(friends.length);
+console.log(friends[friends.length - 1]);
+
+friends[0] = "Adrian";
+
+const firstName = "Ahmed";
+const ahmed = [firstName, "Mkacher", 2023 - 2003, "student", friends];
 */

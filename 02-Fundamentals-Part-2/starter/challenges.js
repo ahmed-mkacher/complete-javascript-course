@@ -1,4 +1,4 @@
-
+/*
 "use strict";
 
 const dS1 = 85;
@@ -24,6 +24,11 @@ function checkWinner(avgDolphins, avgKoalas)
     {
         console.log(`Koalas win (${avgKoalas} vs. ${avgDolphins})`);
     }
+    else
+    {
+        console.log("No team wins");
+    }
 }
 
 checkWinner(avgDolphins, avgKoalas);
+ */
