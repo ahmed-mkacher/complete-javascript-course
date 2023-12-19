@@ -54,4 +54,17 @@ function describePopulation(country, population)
 console.log(describePopulation("China", 1441));
 console.log(describePopulation("USA", 360));
 console.log(describePopulation("Tunisia", 12));
+
+// Arrays lecture assignment
+
+const populations = [12, 360, 1441, 1236];
+console.log(populations.length === 4);
+const percentages = [
+    percentageOfWorld1(populations[0]),
+    percentageOfWorld1(populations[1]),
+    percentageOfWorld1(populations[2]),
+    percentageOfWorld1(populations[3])
+];
+
+console.log(percentages);
 */
