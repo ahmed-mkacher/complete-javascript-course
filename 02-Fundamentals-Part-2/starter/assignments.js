@@ -38,9 +38,20 @@ console.log(percentageOfWorld2(12));
 
 // Arrow functions lecture assignment
 
-const percentageWorld3 = population => 100 * population / 7900;
+const percentageOfWorld3 = population => 100 * population / 7900;
 
-console.log(percentageWorld3(1442));
-console.log(percentageWorld3(360));
-console.log(percentageWorld3(12));
+console.log(percentageOfWorld3(1442));
+console.log(percentageOfWorld3(360));
+console.log(percentageOfWorld3(12));
+
+// Functions calling other functions lecture assignment
+
+function describePopulation(country, population)
+{
+    return `${country} has ${population} million people, which is about ${percentageOfWorld1(population)}`;
+}
+
+console.log(describePopulation("China", 1441));
+console.log(describePopulation("USA", 360));
+console.log(describePopulation("Tunisia", 12));
 */
