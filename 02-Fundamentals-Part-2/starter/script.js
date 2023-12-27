@@ -95,7 +95,6 @@ function fruitProcessor(apples, oranges)
 const friend1 = "Micheal"
 const friend2 = "Gabriel";
 
-const friends = ["Gabriel", "Micheal"];
 const years = new Array(1991, 2001, 2002, 2003);
 
 console.log(years[0]);
@@ -106,4 +105,25 @@ friends[0] = "Adrian";
 
 const firstName = "Ahmed";
 const ahmed = [firstName, "Mkacher", 2023 - 2003, "student", friends];
+// Basic array operations lectue
+
+const friends = ["Gabriel", "Micheal"];
+const newLength = friends.push("Jay");
+
+friends.unshift("John");
+const popped = friends.pop();
+console.log(popped);
+
+console.log(friends);
+console.log(newLength);
+
+console.log(friends.indexOf("Bob"));
+console.log(friends.includes("Bob"));
+
+friends.unshift("Peter")
+
+if (friends.includes("Peter"))
+{
+    console.log("You have a friend called Peter");
+}
 */
