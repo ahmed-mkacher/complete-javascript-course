@@ -65,6 +65,17 @@ const percentages = [
     percentageOfWorld1(populations[2]),
     percentageOfWorld1(populations[3])
 ];
-
 console.log(percentages);
+
+// Basic array operations lecture assignment
+
+const neighbours = ["Algeria", "Libya"];
+neighbours.push("Utopia");
+neighbours.pop();
+if (!neighbours.includes("Germany"))
+{
+    console.log("Probably not a central European country :D");
+}
+const index = neighbours.indexOf("Libya");
+neighbours[index] = "Republic of Libya";
 */
