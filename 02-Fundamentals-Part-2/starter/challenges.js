@@ -1,5 +1,6 @@
-/*
 "use strict";
+/*
+// Coding challenge 1
 
 const dS1 = 85;
 const dS2 = 54;
@@ -31,4 +32,19 @@ function checkWinner(avgDolphins, avgKoalas)
 }
 
 checkWinner(avgDolphins, avgKoalas);
+// Coding challenge 2
+
+const calcTip = bill => bill <= 300 && bill >= 50 ? 0.15 * bill : 0.2 * bill;
+const bills = [125, 44, 555];
+const tips = [
+    calcTip(bills[0]),
+    calcTip(bills[1]),
+    calcTip(bills[2])
+];
+const total = [
+    tips[0] + bills[0],
+    tips[1] + bills[1],
+    tips[2] + bills[2],
+];
+console.log(total);
  */
